@@ -31,10 +31,11 @@ project {
 }
 
 object Xxxxxx : BuildType({
-    name = "Xxxxxx"
+    name = "${DslContext.getParameter("param1", "Test Build111")}"
 
     params {
         param("param", "xxx")
+        
     }
 
     triggers {
