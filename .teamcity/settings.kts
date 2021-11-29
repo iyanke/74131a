@@ -30,7 +30,7 @@ project {
     buildType(Xxxxxx)
 }
 
-object Xxxxxx : BuildType({
+object Build : BuildType({
     name = "${DslContext.getParameter("param1", "Test Build111")}"
 
     params {
