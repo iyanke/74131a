@@ -33,6 +33,10 @@ project {
 object Xxxxxx : BuildType({
     name = "Xxxxxx"
 
+    params {
+        param("param", "xxx")
+    }
+
     triggers {
         vcs {
             branchFilter = ""
