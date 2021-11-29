@@ -27,7 +27,7 @@ version = "2021.2"
 
 project {
 
-    buildType(Xxxxxx)
+    buildType(Build)
 }
 
 object Build : BuildType({
